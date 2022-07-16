@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Schools Attended </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+		body{
+			background: url('images/heroImage.jpeg');
+			height:100vh; 
+			background-size:cover;
+			position:relative;
+		}
+		</style>
+<body>	
+	
+		<nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+				<div class="container">
+					<a class="navbar-brand" href="#">AMANKWAH KWESI EMMANUEL</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="jobs.html">Jobs</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="schools.html">Schools</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="awards.html">Awards</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="skills.html">Skills</a>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+			</nav>
+			<!-- Schools section-->
+			<section id="portfolio">
+					<div class="container mt-3">
+						<h1 class="text-center" id="p">SCHOOLS</h1>
+						<div class="row">
+							<div class="col-lg-4 mt-4">
+								<div class="card" id="o">
+									<img class="card-img-top" src="images/bu 1.jpg" alt="Card image" style="width:100%" height="70%" >
+									<div class="card-body">
+										<h4 class="card-title"id="m"> SHALOM INTERNATIONAL SCHOOL</h4>
+										<p class="card-text">I started Shalom International School from 2006 and completed in 2015 with aggregate 7.</p>
+										<div class="text-center">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+			
+							<div class="col-lg-4 mt-4">
+								<div class="card portfolioContent"id="o">
+									<img class="card-img-top" src="images/dd.jpg" alt="Card image" style="width:100%">
+									<div class="card-body">
+										<h4 class="card-title" id="m">APAM SENIOR HIGH</h4>
+										<p class="card-text">From Shalom I went to Apam Senior High in the year 2015 and completed in the year 2018 as a General Arts student.At Apam Senior High I won so many awards and certificates. Apam Senior High is located at Apam in the central region of Ghana</p>
+										<div class="text-center">
+										
+										</div>
+									</div>
+								</div>
+							</div>
+			
+							<div class="col-lg-4 mt-4">
+								<div class="card portfolioContent"id="o">
+									<img class="card-img-top" src="images/download.jpg" alt="Card image" style="width:100%">
+									<div class="card-body">
+										<h4 class="card-title" id="m">UUNIVERSITY OF GHANA</h4>
+										<p class="card-text">From Apam Senior High, I then further my education to the University Of Ghana, where am currently reading Bs in Information Technology. Am currently in level 200.</p>
+										<div class="text-center">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br>
+						
+				</section>
+
+	 <!-- load javascript after loading all html content -->
+	 <script src="scripts/myscript.js"></script>
+
+	  <!-- footer section-->
+	 <!-- footer section-->
+	 <footer class="footer-distributed">
+ 
+			<div class="footer-left">
+ 
+				<
+ 
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="amankwahkwesi90@gmail.com">Book</a>
+					·
+				</p>
+ 
+				<p class="footer-company-name">AmankwahEmmanuel &copy; 2022</p>
+			</div>
+ 
+			<div class="footer-center">
+ 
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Ghana </span> Greater Accra</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+233556578559</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-envelope"></i>
+		<p><a href="amankwahkwesi90@gmail.com">amankwahkwesi90@gmail.com
+</a></p>
+				</div>
+ 
+			</div>
+ 
+			<div class="footer-right">
+
+					<div class="footer-icons">
+							<a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa fa-facebook"></i></a>
+							<a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+							<a href="https://www.youtube.com/channel/UCNx-y25KlBpnJY7WQKebltA"><i class="fa fa-youtube"></i></a>
+		 
+						</div>
+ 
+			</div>
+ 
+		</footer>
+	 
+</body>
+</html>

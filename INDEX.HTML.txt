@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Resume </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<style>
+.bgimage{
+	background: url('images/heroImage.jpeg');
+	height:100vh; 
+    background-size:cover;
+    position:relative;
+}
+</style>
+
+<body>
+		
+		
+		<nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+				<div class="container">
+					<a class="navbar-brand" href="#">AMANKWAH KWESI EMMANUEL</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="jobs.html">Jobs</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="schools.html">Schools</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="awards.html">Awards</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="skills.html">Skills</a>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+			</nav>
+			
+			<!-- main banner -->
+			<section class="bgimage" id="home">
+					<div class="container-fluid">
+						<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+							<h2 class="hero_title">Hi, it's me KWESI</h2>
+							<p class="hero_desc">I am a professional website developer in Ashaiman</p>
+							<div class="row mt-3">
+									
+						</div>
+						</div>
+					</div>
+				</section>
+				<p id="about">
+						<div class="container mt-4 pt-4">
+							<h1 class="text-center"id="m">AMANKWAH KWESI EMMANUEL BRIEF BIO</h1>
+							<div class="row mt-4">
+								<div class="col-lg-4">
+									<img src="images/tyron.jpg" class= "imageAboutPage" alt="">
+								</div>
+				
+								<div class="col-lg-8">
+									<p> I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript; dabbling with Python and Ruby; and inhaling a wide variety of potentially useless information through a few hundred RSS feeds. I build websites that delight and inform. I do it well.
+									Below are some basic information about me:	
+									</p>
+									<div class="row mt-3">
+										<div class="col-md-6">
+											<ul>
+												<li>Name: Amankwah Kwesi Emmanuel</li>
+												<li>Age: 23</li>
+												<li>Gender: Male</li>
+												<li>Marital Status: Single </li>
+												<li>Contact: 0556578559</li>
+												<li>Occupation: Web Developer/ Teacher </li>
+
+				
+											</ul>
+										</div>
+										
+									</div>
+									<div class="row mt-3">
+										<p> I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand. The list of projects I follow on GitHub will give you a good idea of the types of tools I’d prefer to be using, and my Instapaper “Starred” list will give you a glimpse into the reading material I find interesting enough to share.
+										<h3 id="m">LEAVE A MESSAGE </h3>
+											<h5>This form allows prospective employer to leave details behind for follow up</h5>
+										<form action="">
+											<label for="name">NAME</label>
+											<input type="text" name="" placeholder="Enter your name here"id="d">
+											<br>
+											<br>
+											<label for="name">EMAIL</label>
+											<input type="email" name="" placeholder="Enter your email here" id="d">
+											<br>
+											
+										</form>
+										<br>
+										<textarea name="" id="d" cols="30" rows="10" placeholder="Type your message here"></textarea><br>
+										<br>
+										<button id="f" >Submit</button>
+
+										</p>
+									</div>
+								</div>
+							</div>
+						</p>
+
+						
+    <!-- load javascript after loading all html content -->
+	<script src="scripts/myscript.js"></script>
+
+	 <!-- footer section-->
+	 <footer class="footer-distributed">
+ 
+			<div class="footer-left">
+ 
+				<
+ 
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="amankwahkwesi90@gmail.com">Book</a>
+					·
+				</p>
+ 
+				<p class="footer-company-name">AmankwahEmmanuel &copy; 2022</p>
+			</div>
+ 
+			<div class="footer-center">
+ 
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Ghana </span> Greater Accra</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+233556578559</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-envelope"></i>
+		<p><a href="amankwahkwesi90@gmail.com">amankwahkwesi90@gmail.com
+</a></p>
+				</div>
+ 
+			</div>
+ 
+			<div class="footer-right">
+
+					<div class="footer-icons">
+							<a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa fa-facebook"></i></a>
+							<a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+							<a href="https://www.youtube.com/channel/UCNx-y25KlBpnJY7WQKebltA"><i class="fa fa-youtube"></i></a>
+		 
+						</div>
+ 
+			</div>
+ 
+		</footer>
+	 
+</body>
+</html>

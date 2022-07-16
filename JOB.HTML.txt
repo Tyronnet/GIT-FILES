@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Jobs</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+body{
+	background: url('images/l.jpg');
+	height:100vh; 
+    background-size:cover;
+    position:relative;
+}
+</style>
+
+<body>
+		
+		
+		<nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+				<div class="container">
+					<a class="navbar-brand" href="#">AMANKWAH KWESI EMMANUEL</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="jobs.html">Jobs</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="schools.html">Schools</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="awards.html">Awards</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="skills.html">Skills</a>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+			</nav>
+			<!-- Jobs section-->
+			<section id="services">
+					<div class="container">
+						<h1  class="text-center" id="p">JOBS</h1>
+						<div class="row">
+							<div class="col-lg-4 mt-4">
+								<div class="card servicesText"id="o">
+									<div class="card-body">
+										<i class="fas servicesIcon fa-clock"></i>
+										<h4 class="card-title mt-3" id="m">SHOP KEEPER</h4>
+										<p class="card-text mt-3">My duties and responsibilities included:
+												Selling products and services using solid arguments to prospective customers,
+												Performing cost-benefit analyses of existing and potential customers and
+												Maintaining positive business relationships to ensure future sales.
+										</p>
+									</div>
+								</div>  
+							</div>
+							<div class="col-lg-4 mt-4">
+								<div class="card servicesText"id="o">
+									<div class="card-body">
+										<i class="fas servicesIcon fa-clock"></i>
+										<h4 class="card-title mt-3" id="m">SALES BOY</h4>
+										<p class="card-text mt-3">My duties and responsibilities included:
+												Selling products and services using solid arguments to prospective customers,
+												Performing cost-benefit analyses of existing and potential customers and
+												Maintaining positive business relationships to ensure future sales.
+										</p>
+									</div>
+								</div>  
+							</div>
+
+							<div class="col-lg-4 mt-4">
+								<div class="card servicesText" id="o">
+									<div class="card-body">
+										<i class='fas servicesIcon fa-layer-group'></i>
+										<h4 class="card-title mt-3"id="m"> ICT TEACHER </h4>
+										<p class="card-text mt-3">My duties and responsibilities included: planning lessons that correspond to my students' ability level, facilitating class activities, and providing feedback to students about their work and progress in ICT.
+									</div>
+								</div>  
+							</div>
+
+							<div class="col-lg-4 mt-4">
+								<div class="card servicesText" id="o">
+									<div class="card-body">
+										<i class='fas servicesIcon fa-layer-group'></i>
+										<h4 class="card-title mt-3"id="m"> WEBSITE DEVELOPER </h4>
+										<p class="card-text mt-3">As an upcoming website developer i was responsible for the design and construction of websites. I was to ensure that sites meet user expectations by ensuring they look good, run smoothly and offer easy access points with no loading issues between page.
+										</div>
+								</div>  
+							</div>
+			
+							
+						</div>
+			
+						<div class="row">
+							<div class="col-lg-4 mt-4">
+								
+							</div>
+			
+							
+								</div>  
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- load javascript after loading all html content -->
+		   <script src="scripts/myscript.js"></script>
+		   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		   <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">	
+		   
+		    <!-- footer section-->
+	 <!-- footer section-->
+	 <footer class="footer-distributed" id="c">
+ 
+			<div class="footer-left">
+ 
+				<
+ 
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="amankwahkwesi90@gmail.com">Book</a>
+					·
+				</p>
+ 
+				<p class="footer-company-name">AmankwahEmmanuel &copy; 2022</p>
+			</div>
+ 
+			<div class="footer-center">
+ 
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Ghana </span> Greater Accra</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+233556578559</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-envelope"></i>
+		<p><a href="amankwahkwesi90@gmail.com">amankwahkwesi90@gmail.com
+</a></p>
+				</div>
+ 
+			</div>
+ 
+			<div class="footer-right">
+
+					<div class="footer-icons">
+							<a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa fa-facebook"></i></a>
+							<a href="https://twitter.com/home"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+							<a href="https://www.youtube.com/channel/UCNx-y25KlBpnJY7WQKebltA"><i class="fa fa-youtube"></i></a>
+		 
+						</div>
+			</div>
+ 
+		</footer>
+	 
+			</body>
+			</html>
